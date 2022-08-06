@@ -1,0 +1,40 @@
+.front{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dark{
+    background-color: #1F2937;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:16px;
+}
+
+.logo{
+    color:white;
+    margin-left: 96px;
+    font: 24px extra-bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-links{
+    display:flex;
+    align-items:center;
+    gap: 32px;
+    margin-right:96px;
+}
+.header-link{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+.intro{
+    display:flex;
+    padding:32px;
+}
+.title{
+    
+}
