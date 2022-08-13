@@ -34,7 +34,47 @@
 .intro{
     display:flex;
     padding:32px;
+    flex-basis:auto;
+    justify-content: center;
+}
+.intro-list{
+    height:200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+
+    gap:12px;
 }
 .title{
-    
+    font: 36px 'Courier New';
+    color: white;
+    font-weight:bolder;
+}
+.sub-text{
+    font: 12px 'Courier New';
+    color:white;
+}
+.sign-button{
+    border-style:none;
+    border-radius:5px;
+    padding: 8px 20px 8px 20px;
+    background:#3882F8;
+    font-weight:bold;
+    font-size:16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+.sign-button:hover{
+    background-color:red;
+    color: black;
+    height:500px;
+    font-weight:900;
+    font-size:50px;
+}
+
+.intro-image{
+    height:200px;
+    width:400px;
+    background-color    :#E5E7EB;
+
 }
